@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #232329;
+    background-size: cover;
+   
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fffdfd;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(225, 193, 30);
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #ead9d9;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel p{
+    color: #fafafa;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #5e1769;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.shape {
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+.girl{
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    border-radius: 100%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        display: flex;
+        width: 40%;
+        margin: auto;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        width: 50px;
+        cursor: pointer;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 5px 10px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #fffdfd;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(225, 193, 30);
+    }
+    
+    .detel{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    
+    .detel h1{
+        font-size: 40px;
+        color: #ead9d9;
+        margin-bottom: 15px;
+    }
+    
+    span{
+        color: orange;
+        
+    }
+    
+    .detel p{
+        color: #fafafa;
+        line-height: auto;
+    }
+    
+    .detel a{
+        background: #5e1769;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+    }
+    
+    .images{
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    
+    .shape {
+        height: 70%;
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    
+    .images:hover .shape{
+        bottom: 40px;
+    }
+    
+    .images:hover .girl{
+        left: 45%;
+    }
+    
+    .social{
+        margin-left: 8%;
+        margin-top: 100px;
+    }
+    
+    .social a{
+        font-size: 30px;
+        color: #212121;
+        margin-right: 20px;
+    }
+    
+    .social a:hover{
+        color: orange;
+    }
+    
+    .girl{
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 40%;
+        border-radius: 100%;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+}
